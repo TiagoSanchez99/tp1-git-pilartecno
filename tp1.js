@@ -6,13 +6,12 @@
 */
 
 function extractValues(data) {
-  // Tu código aquí
+  return Object.values(data);
 }
 
 /*  
   Ejercicio 2: 
-  Implementar la función 'arrayToLengthCounters' que toma un array de strings y retorna un objeto donde cada elemento
-  del array se convierte en una clave del objeto y el valor es la longitud de cada string.
+  Implementar la función 'arrayToLengthCounters' que toma un array de strings y retorna un objeto donde cada elemento del array se convierte en una clave del objeto y el valor es la longitud de cada string.
   Ejemplo: 
   arrayToLengthCounters(['gato', 'perro', 'elefante']) debería retornar {gato: 4, perro: 5, elefante: 8}
 */
