@@ -17,7 +17,13 @@ function extractValues(data) {
 */
 
 function arrayToLengthCounters(array) {
-  // Tu código aquí
+  const resultado = {};
+	let i;
+  for (i = 0; i < array.length; i++) {
+    const nombre = array[i];
+    resultado[nombre] = nombre.length;
+  }
+  return resultado;
 }
 
 /*  
